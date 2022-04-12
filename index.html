@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <div class="menu">
+        <p>Entrez le nom de la note à créer:</p>
+        <input type="text" id="name" placeholder="Ex: Economie" autocomplete="off" spellcheck="false">
+        <button id="creation">Valider</button>
+        <p id="error"></p>
+    </div>
+    <div class="theme">
+        <div class="bar">
+            <button class="bar-icon"><i class="fa-solid fa-bars"></i></button>
+        </div>
+        <div class="palette">
+            <div class="colors dead">
+                <div>
+                    <p class="colors-text dead">Thèmes:</p>
+                </div>
+                <div class="container dead">
+                    <button id="theme-black" class="colortheme" value="rgba(0,0,0," name="white"></button>
+                    <button id="theme-yellow" class="colortheme" value="rgba(239, 210, 66," name="black"></button>
+                    <button id="theme-chair" class="colortheme" value="rgba(254, 195, 172," name="black"></button>
+                    <button id="theme-green" class="colortheme" value="rgba(144, 238, 144," name="black"></button>
+                    <button id="theme-purple" class="colortheme" value="rgba(128, 0, 128," name="white"></button>
+                    <button id="theme-blue" class="colortheme" value="rgba(173, 216, 230," name="black"></button>
+                </div>
+            </div>
+            <div class="images dead">
+                <p class="images-text dead">Arrières plans:</p>
+                <div class="contain-images">
+                    <img class="img" src="./bg/bg_1.jpg" alt="Connection failed">
+                    <img class="img" src="./bg/bg_2.jpg" alt="Connection failed">
+                    <img class="img" src="./bg/bg_3.jpg" alt="Connection failed">
+                    <img class="img" src="./bg/bg_4.jpg" alt="Connection failed">
+                    <img class="img" src="./bg/bg_5.jpg" alt="Connection failed">
+                    <img class="img" src="./bg/bg_6.jpg" alt="Connection failed">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./code.js"></script>
+    <script src="https://kit.fontawesome.com/9f6c8a2267.js" crossorigin="anonymous"></script>
+</body>
+</html>
